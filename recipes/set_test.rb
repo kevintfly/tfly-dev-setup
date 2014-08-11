@@ -3,6 +3,6 @@
     owner node['current_user']
     mode "0644"
 	variables({
-    	:fullname => node[:fullname]
+    	:fullname => "Bob Wilson"
   	})
 end
