@@ -16,3 +16,8 @@ execute 'change default thrift version' do
   user node['current-user']
   command "cd /usr/local/Cellar && git checkout eccc96b /usr/local/Library/Formula/thrift.rb"
 end
+
+execute 'change default scala version' do
+  user node['current-user']
+  command "cd /usr/local/Cellar && git checkout 8896425 /usr/local/Library/Formula/scala.rb"
+end
