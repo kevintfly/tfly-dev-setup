@@ -5,5 +5,6 @@
 end
 
 execute 'try passing variables' do 
-	command "echo #{node['tflydevsetup']['fullname']} > test2.txt"
+	user node['current_user']
+	command "echo >>>>>>>>>>>>>> #{node['tflydevsetup']['fullname']}"
 end
