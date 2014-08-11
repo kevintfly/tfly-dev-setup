@@ -2,8 +2,4 @@
 	source "gitconfig.erb"
     owner node['current_user']
     mode "0644"
-	variables({
-    	:fullname => node[:fullname],
-    	:email => node[:email]
-  	})
 end
