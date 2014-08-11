@@ -6,5 +6,5 @@ end
 
 execute 'try passing variables' do 
 	user node['current_user']
-	command "echo >>>>>>>>>>>>>> #{node['tflydevsetup']['fullname']}"
+	command "echo '>>>>>>> #{node['tflydevsetup']['fullname']}'"
 end
